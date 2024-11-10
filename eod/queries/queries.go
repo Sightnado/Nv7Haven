@@ -128,7 +128,7 @@ func (q *Queries) Init() {
 			),
 			sevcord.NewSlashCommand(
 				"commenter",
-				"Compare the commeneters of the elements!",
+				"Compare the commenters of the elements!",
 				q.CreateComparisonCommenterCmd,
 				sevcord.NewOption("name", "The name of the query!", sevcord.OptionKindString, true),
 				sevcord.NewOption("operator", "The operator to compare by!", sevcord.OptionKindString, true).AddChoices(ComparisonQueryOpChoices...),
